@@ -1,0 +1,22 @@
+zdMPuj6eVeIDyyUR
+
+
+  {/*const [selectedFile, setSelectedFile] = useState(null);
+  const [terms, setTerms] = useState([]);
+  const handleFileSelect = (event) => {
+    const file = event.target.files[0];
+    setSelectedFile(file);
+  };*/}
+ {/* const handleTermGeneration = async (topic) => {
+    const response = await fetch('/api/generate-terms', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ topic })
+    });
+    const data = await response.json();
+    setTerms(data);
+  };
+*/}
+  

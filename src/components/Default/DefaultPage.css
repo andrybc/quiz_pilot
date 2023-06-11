@@ -1,0 +1,58 @@
+
+
+
+
+.backgrounds-default {
+    background: linear-gradient(rgba(21, 21, 61, 0.5), rgba(21, 21, 61, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.GenAI-default  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+.cardsContainer-default {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .showCasecontainer-default {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .girlStudy-default{
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+   
+  }
+
+  .groupStudy-default{
+    width: 20%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%)
+  }

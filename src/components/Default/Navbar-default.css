@@ -1,0 +1,102 @@
+.navbar-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #222;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .navbar-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+  
+  .toggle {
+    display: none;
+  }
+  .navbar-brand-default {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo-default {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    
+  }
+
+  .appQuiz-text-default{
+    color: white;
+  }
+  .appPilot-text-default{
+    color: #77d6fc;
+  }
+  
+  .navbar-links-default {
+    margin-left: 3%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-link-default {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link-default::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    top: 25%;
+    right: -5px;
+    background-color: #fff;
+  }
+  
+  .navbar-link-default:last-child::before {
+    display: none;
+  }
+  
+  .navbar-link-default:hover {
+    color: #ccc;
+  }
+  
+  .navbar-link-default-active {
+    color: #77d6fc;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar-container {
+      grid-template-columns: 1fr;
+    }
+    /* Add any other styles for tablet-sized screens here */
+  }
+  
+  /* Mobile screen sizes */
+  @media screen and (max-width: 480px) {
+    .navbar-container {
+      grid-template-columns: 1fr;
+    }
+  
+  
+    .navbar-links-default {
+      display: none;
+    }
+  
+    .navbar-links-default.active {
+      display: block;
+    }
+
+  }

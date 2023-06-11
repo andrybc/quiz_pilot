@@ -1,0 +1,64 @@
+/* Container for the flashcard icon */
+.flashcard-icon-container {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue; /* Change this to your desired background color */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 1s infinite;
+  box-shadow: 0px 0px 5px grey; /* Add drop shadow to the icon */
+}
+
+/* Flashcard icon image */
+.flashcard-icon-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Hover effect */
+.flashcard-icon-container:hover {
+  background-color: white; /* Change this to your desired hover background color */
+  transform: scale(1.2); /* Increase the size of the icon */
+  box-shadow: 0px 0px 10px grey; /* Add a stronger drop shadow to the icon */
+}
+
+/* Saved flashcards container */
+.saved-flashcards-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Add any other styling as needed */
+}
+
+/* Flashcard icons wrapper */
+.flashcard-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+  border: none;
+  /* Add any other styling as needed */
+}
+
+/* Optional: Add any additional styles as needed */
+
+/* Animation for pulse effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

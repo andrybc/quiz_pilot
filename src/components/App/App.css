@@ -1,0 +1,51 @@
+
+
+.App {
+  position: absolute;
+  top: 0%;
+  right:0%;
+  left:0%;
+  bottom:0%;
+  background:linear-gradient(rgba(21, 21, 61, 0.8), rgba(21, 21, 61, 0.8)), url('./quizpilot\ log\ resize.png'), linear-gradient(rgba(21, 21, 61, 1), rgba(21, 21, 61, 1));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+    
+
+}
+
+.App-logo {
+  opacity: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.App-logo-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+

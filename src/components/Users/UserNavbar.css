@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #222;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    
+  }
+
+  .appQuiz-text{
+    color: white;
+  }
+  .appPilot-text{
+    color: #77d6fc;
+  }
+  
+  .navbar-links {
+    margin-left: 3%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    top: 25%;
+    right: -5px;
+    background-color: #fff;
+  }
+  
+  .navbar-link:last-child::before {
+    display: none;
+  }
+  
+  .navbar-link:hover {
+    color: #ccc;
+  }
+  
+  .navbar-link-active {
+    color: #77d6fc;
+  }

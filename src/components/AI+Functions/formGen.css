@@ -1,0 +1,92 @@
+.form-containers {
+
+
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  
+  width: 400px;
+  height: 150px;
+  animation: slide-up-GenAI-user 0.5s ease-in-out forwards;
+}
+@keyframes slide-up-GenAI-user {
+  0% {
+    transform: translate(0%, 50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+
+
+.input-container {
+
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+ 
+}
+
+
+
+.input-Gen {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+  
+}
+
+.button-Gen {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0077FF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-Gen:hover {
+  background-color: #0055CC;
+}
+
+.loading-container {
+ 
+  width: 50px;
+  height: 50px;
+}
+
+.loading-img {
+  
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.spin-button-input {
+  width: 50px;
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+
+}
+
+
