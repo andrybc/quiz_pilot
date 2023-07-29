@@ -4,7 +4,7 @@ This is my first shot at creating a progressive web app for a business I am star
 
 
 THINGS COMPLETED:
-Successfully created a login and sign up page
-Created authentication procedure and stored user data in mongoDB
-Successfully created REST API endpoints to communincate to my backend server and OpenAI
-Created a useful navbar and configure protected pages
+Successfully created a login and sign up page.
+Created authentication procedure and stored user data in mongoDB.
+Successfully created REST API endpoints to communincate to my backend server and OpenAI.
+Created a useful navbar and configure protected pages.
